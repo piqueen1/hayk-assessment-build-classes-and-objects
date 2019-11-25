@@ -22,7 +22,9 @@ class Building
   end
 end
 
-puts Building.avg_tenants.type
+Building.new "Flatiron", "11748 Keough Dr", 5, 200 
+
+puts Building.self.avg_tenants
 
 
 
